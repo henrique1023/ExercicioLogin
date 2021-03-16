@@ -74,7 +74,7 @@ public class ThreadIngresso extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("Processando pedido.");
+			System.out.println("Processando pedido do Usuario " + idLogin);
 			if (tempoRodando > tempoLimite) {
 				System.out.println("Não conseguimos Executar a compra.");
 				break;
